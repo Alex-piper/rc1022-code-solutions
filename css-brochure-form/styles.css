@@ -1,0 +1,49 @@
+h1 {
+  text-align: center;
+  color: rgb(240 56 56);
+  font-family: "Brandon Grotesque", serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  text-transform: uppercase;
+}
+
+label {
+  font-family: "Brandon Grotesque", serif;
+  font-size: 8px;
+  text-transform: uppercase;
+  font-style: normal;
+  font-weight: 400;
+  margin-left: 425px;
+  border-width: thin;
+  padding-right: 250px;
+}
+
+input.input {
+  font-family: "Brandon Grotesque", serif;
+  color: grey;
+  margin-left: 421px;
+  padding-top: 6px;
+  width: 400px;
+}
+
+button {
+  color: white;
+  background-color: rgb(240 80 56);
+  width: 80px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  text-transform: uppercase;
+  font-family: "Brandon Grotesque", serif;
+  border-style: groove;
+  margin-left: 740px;
+  margin-top: 10px;
+}
+
+select {
+  width: 400px;
+  margin-left: 421px;
+  padding-top: 4px;
+  padding-bottom: 3px;
+  background-color: rgb(128 128 128 / 20.4%);
+}
