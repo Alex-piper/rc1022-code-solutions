@@ -4,6 +4,10 @@
   margin-right: auto;
 }
 
+.column-full {
+  width: 100%;
+}
+
 .row {
   display: flex;
 }
