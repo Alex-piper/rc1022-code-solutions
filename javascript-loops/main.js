@@ -15,6 +15,7 @@ function getNumbersToTen() {
   }
   return numbers;
 }
+console.log('getnumberstoten', getNumbersToTen());
 
 function getEvenNumbersToTwenty() {
   var evenNumbers = [];
@@ -25,6 +26,7 @@ function getEvenNumbersToTwenty() {
   }
   return evenNumbers;
 }
+console.log('getEvenNumbersToTwenty', getEvenNumbersToTwenty());
 
 function repeatWord(word, times) {
   var repeated = '';
@@ -35,12 +37,14 @@ function repeatWord(word, times) {
   }
   return repeated;
 }
+console.log('repeatWord', repeatWord('javascript', 30));
 
 function logEachCharacter(string) {
   for (var i = 0; i < string.length; i++) {
     console.log(string[i]);
   }
 }
+console.log(logEachCharacter('movie'));
 
 function doubleAll(numbers) {
   var doubled = [];
@@ -49,6 +53,7 @@ function doubleAll(numbers) {
   }
   return doubled;
 }
+console.log('doubleAll', doubleAll([5, 7, 9, 11]));
 
 function getKeys(object) {
   var keys = [];
@@ -57,6 +62,7 @@ function getKeys(object) {
   }
   return keys;
 }
+console.log('getKeys:', getKeys({ isbn: '978-1449365053', title: 'Speaking JS', author: 'Dr.Axel Rauschmayer' }));
 
 function getValues(object) {
   var values = [];
@@ -65,3 +71,4 @@ function getValues(object) {
   }
   return values;
 }
+console.log('getValues', getValues({ isbn: '978-1449365053', title: 'Speaking JS', author: 'Dr.Axel Rauschmayer' }));
