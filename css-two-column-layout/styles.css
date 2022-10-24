@@ -35,6 +35,7 @@ body {
 .four-fifths {
   padding-right: 5%;
   padding-top: 20px;
+  flex-basis: 80%;
 }
 
 button {
@@ -56,6 +57,7 @@ p {
 
 .one-half {
   display: flex;
+  flex-basis: 50%;
 }
 
 img {
@@ -65,4 +67,10 @@ img {
 div.footer {
   align-items: center;
   width: 100%;
+  padding-left: 124px;
+}
+
+.one-fifth {
+  display: flex;
+  flex-basis: 20%;
 }
