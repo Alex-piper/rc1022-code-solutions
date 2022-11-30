@@ -12,7 +12,7 @@ const secondNumber = args.slice(2)[2];
 const mathFunctions = {
   plus: add,
   minus: subtract,
-  divide,
+  over: divide,
   times: multiply
 };
 
@@ -31,6 +31,12 @@ function calculate(firstNumber, stringMethod, secondNumber) {
   for (const key in mathFunctions) {
     if (stringMethod === key) {
       return mathFunctions[key](firstValue, secondValue);
+    }
+  }
+
+  for (const key in mathFunctions) {
+    if (stringMethod !== key) {
+      return 'invalid operation';
     }
   }
 }
